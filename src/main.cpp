@@ -30,7 +30,6 @@ void setup() {
   M5.Lcd.setRotation(3);
   SPIFFS.begin(false);
   redrawPinScreen(0);
-  
   bleKeyboard.begin();
 }
 
